@@ -1,0 +1,30 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "FastAPI",
+        "version": "0.1.0"
+    },
+    "servers": [
+        {
+            "url": "https://vzbootcampnj-bootcamp.apps.68d14ea9ba8368133c0b353a.am1.techzone.ibm.com/"
+        }
+    ],
+    "paths": {
+        "/data": {
+            "get": {
+                "summary": "Get Data",
+                "operationId": "get_data_tool",
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
