@@ -491,7 +491,7 @@ This binds the **Server Status Agent** to the `check_server_status` tool you jus
 > **Console option (SaaS):** Go to **Agents → Add agent**, upload `wxo_assets/agents/server_status_agent.yaml`, then save.
 
 #### 3) Quick sanity checks
-- Ask: “Check if ATT.com is up.”  
+- Ask: “Check if Dish.com is up.”  
 - The agent should call the `check_server_status` tool and return whether the server is reachable.  
 - If no response or an error occurs, confirm the tool is present and correctly linked to the agent.
 
