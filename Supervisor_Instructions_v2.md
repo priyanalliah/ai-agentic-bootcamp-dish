@@ -268,7 +268,7 @@ Congradulations you've just completed building your frist Agent. The **Network S
 
 ---
 
-### The Communication Agent
+### The Communications Agent
 
 The **Communications Agent** is responsible for drafting clear and professional notification emails about network incidents or operational updates.  
 It integrates with **Outlook** using an OpenAPI JSON tool, allowing it not only to generate content but also to send emails automatically.
