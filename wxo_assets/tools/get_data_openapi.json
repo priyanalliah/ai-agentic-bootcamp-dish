@@ -6,10 +6,11 @@
     },
     "servers": [
         {
-            "url": "https://vzbootcampnj-bootcamp.apps.68d14ea9ba8368133c0b353a.am1.techzone.ibm.com/"
+            "url": "https://dish-bootcamp-tools-dish-bootcamp-tools.apps.itz-n0n7ql.infra01-lb.wdc07.techzone.ibm.com/"
         }
     ],
     "paths": {
+       
         "/data": {
             "get": {
                 "summary": "Get Data",

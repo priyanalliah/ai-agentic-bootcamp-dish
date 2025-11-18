@@ -6,14 +6,15 @@
     },
     "servers": [
         {
-            "url": "https://bootcamp-email-bootcamp.apps.itz-xaao7x.infra01-lb.wdc07.techzone.ibm.com"
+            "url": "https://dish-bootcamp-tools-dish-bootcamp-tools.apps.itz-n0n7ql.infra01-lb.wdc07.techzone.ibm.com/"
         }
     ],
     "paths": {
+        
         "/send-email": {
             "post": {
                 "summary": "Send Email Outlook",
-                "operationId": "send_email_in_outlook",
+                "operationId": "send_email_outlook_send_email_post",
                 "requestBody": {
                     "content": {
                         "application/json": {
