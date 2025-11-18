@@ -79,7 +79,7 @@ Watsonx Orchestrate is IBM’s platform for creating, managing, and running AI-d
    - Accept the invite and sign in to your IBM Cloud Account
 3. **Access your Orchestrate Instance**
    - In the IBM Cloud Dashboard navigate to the Resource List. Under AI/ML select watsonx Orchestrate-Temp-Workshop and launch the application.
-  ![alt text](<Screenshot 2025-09-23 at 3.02.51 PM.png>)
+  ![alt text](<images/Screenshot 2025-09-23 at 3.02.51 PM.png>)
   ![alt text](images/siu_3.png)
    - If you don't see any resources under AI/ML in your IBM Cloud Account kindly reachout to an instructor for assistance. 
    - Once you have access to an Orchestrate instance you may continue to the next section
@@ -117,7 +117,7 @@ Here, we are creating a virtual environment for our dependencies to live. This a
 
 #### Orchestrate Instance Details
 - Navigate to the IBM Cloud resource list. And launch Orchestrate.
-      ![alt text](image-8.png)
+      ![alt text](images/image-8.png)
   ![alt text](images/siu_3.png)
 - Navigate to the Orchestrate Settings > API details. And Save the URL as we will use it in a later step.
     ![alt text](images/siu_4.png)
@@ -127,7 +127,7 @@ Here, we are creating a virtual environment for our dependencies to live. This a
 - Click Create and provide a name. Leave all other settings default
   ![alt text](images/key3.png)
 - Once complete you should recieve an API Key. Save this key.
-  ![alt text](images/key4.png)
+  
     
 
 #### ADK Setup
