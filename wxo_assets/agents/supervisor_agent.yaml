@@ -15,11 +15,6 @@ instructions: |
   - Use the **incident_diagnosis_agent** when the user provides an incident log and needs root cause analysis or a resolution plan.
   - Use the **server_status_agent** when the user wants to check if a specific server or URL is up or reachable.
 
-collaborators:
-  - network_status_agent
-  - communications_agent
-  - incident_diagnosis_agent
-  - server_status_agent
 
 tools: []
 knowledge_base: []

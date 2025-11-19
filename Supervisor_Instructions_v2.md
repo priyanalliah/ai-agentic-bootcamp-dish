@@ -159,7 +159,7 @@ In this lab, we will configure a set of 4 agents and 1 supervisor agent inside *
 ##### Server Status Agent  
 - **Purpose**: Verifies whether a specific server or URL is currently online and reachable.  
 - **Tools**: Uses a server check tool to confirm availability.  
-- **Usage**: Handles requests like “Check if ATT.com is up.”  
+- **Usage**: Handles requests like “Check if dish.com is up.”  
  
 
 ##### Supervisor Agent  
@@ -544,7 +544,7 @@ e. Click on Add Agent
 #### 3) Quick sanity checks (routing behavior)
 Try these natural-language prompts to validate routing:
 - “**What’s the status of site S002?**” → should route to **Network Status Agent** (calls `get_data`)
-- “**Check if ATT.com is up.**” → should route to **Server Status Agent** (calls `check_server_status`)
+- “**Check if dish.com is up.**” → should route to **Server Status Agent** (calls `check_server_status`)
 - “**Here’s an incident log… what’s the root cause and fix?**” → should route to **Incident Diagnosis Agent** (uses `diagnose_incident_log`, consults resolution guides if configured)
 - “**Draft an email to the LA network team that the incident is resolved.**” → should route to **Communications Agent** (and can send via Outlook if configured)
 
