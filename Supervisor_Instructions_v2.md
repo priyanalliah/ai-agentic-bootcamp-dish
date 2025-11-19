@@ -430,11 +430,7 @@ Knowledge Bases refer to Vector Stores that allow your Agents to query unstructu
      - `Troubleshooting documentation for resolving common network incident root causes.
   Covers backhaul failures, power outages, and configuration errors.`
   6. Save. This may take 1 min or two.
-- Configure the Knowledge Base
-  1. Scroll down to the Knowledge section and click `Edit knowledge settings`
-      ![alt text](images/kb4.png)
-  2. Modify the retreval criteria and save
-      ![alt text](images/kb5.png)
+
 
 <!--  -->
 <!--  -->
