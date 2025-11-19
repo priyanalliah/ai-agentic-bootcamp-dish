@@ -190,7 +190,7 @@ In this lab, it **does not use a knowledge base**. Instead, it calls a `get_data
    ![alt text](images/wxo_homepage.png)
      2. Create tool → Add from file or MCP server"→ Upload the OpenAPI (wxo_assets/tools/get_data_openapi.json) → Select the "Get Data" operation → Done**
       ![alt text](images/wxo_tool1.png)
-      ![alt text](images/wxo_tool2.png)
+      ![alt text](images/OpenspecAPI.png) 
       ![alt text](images/wxo_tool3.png)
       ![alt text](images/wxo_tool4.png)
      3. Verify you see an entry for `get_data` tool under the tools homepage.
@@ -227,7 +227,7 @@ In this lab, it **does not use a knowledge base**. Instead, it calls a `get_data
      1. Scroll down to the **Toolset** section and click on "Add Tool". 
      2. Since we have already added the `get_data` tool to our local instance, we can select and add it to the agent.
       ![alt text](images/wxo_agent4.png)
-      ![alt text](images/wxo_agent5.png)
+      ![alt text](images/local_instance.png)
       ![alt text](images/wxo_agent6.png)
    - Lastly we must add instructions for our agent. This will explain to the LLM what to do, and how to utilize its tools to acomplish the goal.
      1. Scroll down to the **Behavior** section and add the following instructions.
@@ -251,11 +251,6 @@ In this lab, it **does not use a knowledge base**. Instead, it calls a `get_data
    - `Can you provide me a table of all the cell towers in the system with their relevant status?`
    - `Why is site S004 down?`
 
-#####  Quick sanity check:
-- Ask a scoped question (e.g., “What’s the status of site S002?”). The agent should call `get_data` behind the scenes.
-- If responses look generic, confirm the tool name in the YAML matches the imported tool’s name exactly (`get_data`), and that the OpenAPI paths/servers are reachable.
-
-
 
 #####  Common troubleshooting tips:
 - **Tool not found:** Re-run `orchestrate tools list`. If missing, re-import `wxo_assets/tools/get_data_openapi.json`.
@@ -264,7 +259,7 @@ In this lab, it **does not use a knowledge base**. Instead, it calls a `get_data
 
 
 
-Congradulations you've just completed building your frist Agent. The **Network Status Agent** is ready. It will now route natural-language queries to the `get_data` tool to return live network status.
+Congratulations you've just completed building your first Agent. The **Network Status Agent** is ready. It will now route natural-language queries to the `get_data` tool to return live network status.
 
 ---
 
@@ -283,8 +278,8 @@ This tool provides the functionality for the agent to send emails via the Outloo
       ![alt text](images/OpenspecAPI.png)
       ![alt text](images/wxo_tool3.png)
       3. If you're using a shared environment change the name of your tool not to overwrite other users work. 
-      ![alt text](image-5.png)
-      ![alt text](image-6.png)
+      ![alt text](images/image-5.png)
+      ![alt text](images/image-6.png)
 
 
 
@@ -317,7 +312,6 @@ This agent definition links the Communications Agent with the `outlook_email` to
      1. Scroll down to the **Toolset** section and click on "Add Tool". 
      2. Since we have already added the `Send Email Outlook` tool to our instance, we can select and add it to the agent.
       ![alt text](images/local_instance.png)
-      ![alt text](images/wxo_agent5.png)
 
    - Lastly add instructions to the Communications Agent
      1. Scroll down to the **Behavior** section and add the following instructions.
