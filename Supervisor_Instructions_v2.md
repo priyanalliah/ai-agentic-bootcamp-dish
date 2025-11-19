@@ -388,7 +388,7 @@ This tool provides log analysis capabilities so the agent can extract error patt
   2. This python function mimics log analysis using keyword matching. 
   3. Notice how the `@tool` decorator. This defines the function as a tool for the watsonx orchestrate extention. Notice how the toll desciption is already defined here.
   4. If you're using a shared environment Add your initials to the tool name
-    ![alt text](<Screenshot 2025-09-23 at 3.26.17 PM-1.png>)
+    ![alt text](<images/Screenshot 2025-09-23 at 3.26.17 PM-1.png>)
   5. Save the file
   6. https://developer.watson-orchestrate.ibm.com/tools/create_tool#creating-python-based-tools
 
@@ -410,7 +410,7 @@ This agent definition links the `diagnose_incident_log` tool with the `incident_
   2. All agents on the backend get defined as yaml. We can create a new agent in the same fashion.
   3. Notice how all the fields match the UI fields. Also Notice we're using a different LLM. 
   4. If you're using a shared environment Add your initials to the agent name
-  ![alt text](<Screenshot 2025-09-23 at 3.26.17 PM-2.png>)
+  ![alt text](<images/Screenshot 2025-09-23 at 3.26.17 PM-2.png>)
   5. https://developer.watson-orchestrate.ibm.com/agents/build_agent
 
 - Import the Agent using the ADK
@@ -536,16 +536,16 @@ This registers the **Supervisor Agent** and declares its collaborators (the four
 #### 2) 2. Add Collaborator Agents to the NOC_Supervisor_Agent
 a. Go to Manage Agents - > Click on NOC_Supervisor_Agent
 b. Click on Tools -> Add Agent as shown in screenshot
-![alt text](image.png)
+![alt text](images/image.png)
 c. Choose "Add from Local Instance" option
-![alt text](image-1.png)
+![alt text](images/image-1.png)
 d. Click on 4 Agents you created as shown below:
 network_status_agent
 server_status_agent
 incident_diagnosis_agent
 communications_agent
 e. Click on Add Agent
-![alt text](image-2.png)
+![alt text](images/image-2.png)
 
 #### 3) Quick sanity checks (routing behavior)
 Try these natural-language prompts to validate routing:
