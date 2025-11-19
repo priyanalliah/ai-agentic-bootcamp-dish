@@ -276,7 +276,7 @@ This tool provides the functionality for the agent to send emails via the Outloo
      2. Create tool → Add from file or MCP server"→ Upload the OpenAPI (wxo_assets/tools/get_data_openapi.json) → Select the "Send Email Outlook" operation → Done**
       ![alt text](images/wxo_tool1.png)
       ![alt text](images/OpenspecAPI.png)
-      ![alt text](images/wxo_tool3.png)
+      ![alt text](images/send_email_tool.png) 
       3. If you're using a shared environment change the name of your tool not to overwrite other users work. 
       ![alt text](images/image-5.png)
       ![alt text](images/image-6.png)
